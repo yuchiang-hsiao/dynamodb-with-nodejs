@@ -1,0 +1,26 @@
+{
+  "name": "dynamodb-with-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinvil/dynamodb-with-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinvil/dynamodb-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/kinvil/dynamodb-with-nodejs#readme",
+  "dependencies": {
+    "aws-sdk": "^2.6.12",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "uuid": "^2.0.3"
+  }
+}
