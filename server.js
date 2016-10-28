@@ -11,7 +11,7 @@ AWS.config.update({
 var docClient = new AWS.DynamoDB.DocumentClient();
 var dynamodb = new AWS.DynamoDB();
 
-var tableName = 'dynamo-test-table';
+var tableName = 'dynamo-with-nodejs-example';
 var PORT = 3000;
 
 // Permit the app to parse application/x-www-form-urlencoded
